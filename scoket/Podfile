@@ -1,0 +1,8 @@
+platform:ios ,'8.0'
+inhibit_all_warnings!
+use_frameworks!
+target ‘test5’ do
+pod 'MBProgressHUD', '~> 0.8'
+end
+use_frameworks!
+pod 'CocoaAsyncSocket'
